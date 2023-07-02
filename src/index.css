@@ -1,0 +1,16 @@
+* {
+  font-family: 'Roboto', 'Ubuntu', 'Cantarell', 'Oxygen', 'Fira Sans',
+    'Droid Sans', sans-serif, 'Helvetica Neue';
+  font-size: 18px;
+  text-decoration: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  
+}
+
+body {
+  background-color: rgba(0, 121, 191, 1);
+}

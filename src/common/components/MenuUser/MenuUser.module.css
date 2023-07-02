@@ -1,0 +1,50 @@
+.menu {
+  position: fixed;
+  right: 10px;
+  top: 55px;
+  width: 140px;
+  height: 60px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+
+
+.menuIcon {
+  position: relative;
+  cursor: pointer;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 25px;
+}
+
+.menuIcon::before {
+  content: url(../../../../public/user.svg);
+  position: absolute;
+  left: 6px;
+  top: 7px;
+}
+
+.menuIcon::after {
+  content: url(../../../../public/arrow.svg);
+  position: absolute;
+  top: 5px;
+  left: 55px;
+  
+}
+
+
+.menuUp li {
+  width: 100%;
+  height: 30px;
+  padding: 5px;
+  color: black;
+  border-radius: 5px;
+}
+
+.menuUp li:hover {
+  cursor: pointer;
+  background-color: rgba(0, 81, 255, 0.76);
+}

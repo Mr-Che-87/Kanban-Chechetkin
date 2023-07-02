@@ -1,0 +1,26 @@
+.button {
+  background-color: unset;
+  color: #5e6c84;
+  cursor: pointer;
+  border: 0;
+  
+  padding: 10px;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.button:hover {
+  background-color: white;
+  color: black;
+}
+
+.submit {
+  background-color: darkblue;
+  color: white;
+}
+
+.button:disabled:hover {
+  background-color: unset;
+  cursor: default;
+  color: #5e6c84;
+}
